@@ -1,0 +1,303 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+<title>AppointmentService</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="dc.created" content="2026-09-08">
+<meta name="description" content="declaration: package: com.airtribe.meditrack.service, class: AppointmentService">
+<meta name="generator" content="javadoc/ClassWriterImpl">
+<link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
+<link rel="stylesheet" type="text/css" href="../../../../script-dir/jquery-ui.min.css" title="Style">
+<link rel="stylesheet" type="text/css" href="../../../../jquery-ui.overrides.css" title="Style">
+<script type="text/javascript" src="../../../../script.js"></script>
+<script type="text/javascript" src="../../../../script-dir/jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="../../../../script-dir/jquery-ui.min.js"></script>
+</head>
+<body class="class-declaration-page">
+<script type="text/javascript">var evenRowColor = "even-row-color";
+var oddRowColor = "odd-row-color";
+var tableTab = "table-tab";
+var activeTableTab = "active-table-tab";
+var pathtoroot = "../../../../";
+loadScripts(document, 'script');</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<div class="flex-box">
+<header role="banner" class="flex-header">
+<nav role="navigation">
+
+<div class="top-nav" id="navbar-top">
+<div class="skip-nav"><a href="#skip-navbar-top" title="Skip navigation links">Skip navigation links</a></div>
+<ul id="navbar-top-firstrow" class="nav-list" title="Navigation">
+<li><a href="../../../../index.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="nav-bar-cell1-rev">Class</li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../index-all.html">Index</a></li>
+<li><a href="../../../../help-doc.html#class">Help</a></li>
+</ul>
+</div>
+<div class="sub-nav">
+<div>
+<ul class="sub-nav-list">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor-summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method-summary">Method</a></li>
+</ul>
+<ul class="sub-nav-list">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor-detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method-detail">Method</a></li>
+</ul>
+</div>
+<div class="nav-list-search"><label for="search-input">SEARCH:</label>
+<input type="text" id="search-input" value="search" disabled="disabled">
+<input type="reset" id="reset-button" value="reset" disabled="disabled">
+</div>
+</div>
+
+<span class="skip-nav" id="skip-navbar-top"></span></nav>
+</header>
+<div class="flex-content">
+<main role="main">
+
+<div class="header">
+<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">com.airtribe.meditrack.service</a></div>
+<h1 title="Class AppointmentService" class="title">Class AppointmentService</h1>
+</div>
+<div class="inheritance" title="Inheritance Tree"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">java.lang.Object</a>
+<div class="inheritance">com.airtribe.meditrack.service.AppointmentService</div>
+</div>
+<section class="class-description" id="class-description">
+<dl class="notes">
+<dt>All Implemented Interfaces:</dt>
+<dd><code><a href="../interfaces/Searchable.html" title="interface in com.airtribe.meditrack.interfaces">Searchable</a>&lt;<a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a>&gt;</code></dd>
+</dl>
+<hr>
+<div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">AppointmentService</span>
+<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>
+implements <a href="../interfaces/Searchable.html" title="interface in com.airtribe.meditrack.interfaces">Searchable</a>&lt;<a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a>&gt;</span></div>
+</section>
+<section class="summary">
+<ul class="summary-list">
+
+<li>
+<section class="constructor-summary" id="constructor-summary">
+<h2>Constructor Summary</h2>
+<div class="caption"><span>Constructors</span></div>
+<div class="summary-table two-column-summary">
+<div class="table-header col-first">Constructor</div>
+<div class="table-header col-last">Description</div>
+<div class="col-constructor-name even-row-color"><code><a href="#%3Cinit%3E(com.airtribe.meditrack.service.DoctorService,com.airtribe.meditrack.service.PatientService)" class="member-name-link">AppointmentService</a><wbr>(<a href="DoctorService.html" title="class in com.airtribe.meditrack.service">DoctorService</a>&nbsp;doctorService,
+ <a href="PatientService.html" title="class in com.airtribe.meditrack.service">PatientService</a>&nbsp;patientService)</code></div>
+<div class="col-last even-row-color">&nbsp;</div>
+</div>
+</section>
+</li>
+
+<li>
+<section class="method-summary" id="method-summary">
+<h2>Method Summary</h2>
+<div id="method-summary-table">
+<div class="table-tabs" role="tablist" aria-orientation="horizontal"><button id="method-summary-table-tab0" role="tab" aria-selected="true" aria-controls="method-summary-table.tabpanel" tabindex="0" onkeydown="switchTab(event)" onclick="show('method-summary-table', 'method-summary-table', 3)" class="active-table-tab">All Methods</button><button id="method-summary-table-tab2" role="tab" aria-selected="false" aria-controls="method-summary-table.tabpanel" tabindex="-1" onkeydown="switchTab(event)" onclick="show('method-summary-table', 'method-summary-table-tab2', 3)" class="table-tab">Instance Methods</button><button id="method-summary-table-tab4" role="tab" aria-selected="false" aria-controls="method-summary-table.tabpanel" tabindex="-1" onkeydown="switchTab(event)" onclick="show('method-summary-table', 'method-summary-table-tab4', 3)" class="table-tab">Concrete Methods</button></div>
+<div id="method-summary-table.tabpanel" role="tabpanel">
+<div class="summary-table three-column-summary" aria-labelledby="method-summary-table-tab0">
+<div class="table-header col-first">Modifier and Type</div>
+<div class="table-header col-second">Method</div>
+<div class="table-header col-last">Description</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#addLoaded(com.airtribe.meditrack.entity.Appointment)" class="member-name-link">addLoaded</a><wbr>(<a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a>&nbsp;appointment)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#addObserver(com.airtribe.meditrack.patterns.observer.AppointmentObserver)" class="member-name-link">addObserver</a><wbr>(<a href="../patterns/observer/AppointmentObserver.html" title="interface in com.airtribe.meditrack.patterns.observer">AppointmentObserver</a>&nbsp;observer)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>,<wbr><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&gt;</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#appointmentsPerDoctor()" class="member-name-link">appointmentsPerDoctor</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#bookAppointment(java.lang.String,java.lang.String,java.time.LocalDateTime,java.lang.String)" class="member-name-link">bookAppointment</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;patientId,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;doctorId,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/LocalDateTime.html" title="class or interface in java.time" class="external-link">LocalDateTime</a>&nbsp;dateTime,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;reason)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#cancelAppointment(java.lang.String)" class="member-name-link">cancelAppointment</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;id)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="../entity/Bill.html" title="class in com.airtribe.meditrack.entity">Bill</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#generateBill(java.lang.String,double)" class="member-name-link">generateBill</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;appointmentId,
+ double&nbsp;amount)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="../entity/Bill.html" title="class in com.airtribe.meditrack.entity">Bill</a></code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#generateBill(java.lang.String,double,com.airtribe.meditrack.patterns.billing.BillingStrategy)" class="member-name-link">generateBill</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;appointmentId,
+ double&nbsp;amount,
+ <a href="../patterns/billing/BillingStrategy.html" title="interface in com.airtribe.meditrack.patterns.billing">BillingStrategy</a>&nbsp;strategy)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a>&gt;</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getAllAppointments()" class="member-name-link">getAllAppointments</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../entity/Bill.html" title="class in com.airtribe.meditrack.entity">Bill</a>&gt;</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getAllBills()" class="member-name-link">getAllBills</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a>&gt;</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getAppointmentsForDoctor(java.lang.String)" class="member-name-link">getAppointmentsForDoctor</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;doctorId)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a>&gt;</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getAppointmentsForPatient(java.lang.String)" class="member-name-link">getAppointmentsForPatient</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;patientId)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a>&gt;</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#search(java.lang.String)" class="member-name-link">search</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;keyword)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+</div>
+</div>
+</div>
+<div class="inherited-list">
+<h3 id="methods-inherited-from-class-java.lang.Object">Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></h3>
+<code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a></code></div>
+<div class="inherited-list">
+<h3 id="methods-inherited-from-class-com.airtribe.meditrack.interfaces.Searchable">Methods inherited from interface&nbsp;com.airtribe.meditrack.interfaces.<a href="../interfaces/Searchable.html" title="interface in com.airtribe.meditrack.interfaces">Searchable</a></h3>
+<code><a href="../interfaces/Searchable.html#hasMatches(java.lang.String)">hasMatches</a></code></div>
+</section>
+</li>
+</ul>
+</section>
+<section class="details">
+<ul class="details-list">
+
+<li>
+<section class="constructor-details" id="constructor-detail">
+<h2>Constructor Details</h2>
+<ul class="member-list">
+<li>
+<section class="detail" id="&lt;init&gt;(com.airtribe.meditrack.service.DoctorService,com.airtribe.meditrack.service.PatientService)">
+<h3>AppointmentService</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">AppointmentService</span><wbr><span class="parameters">(<a href="DoctorService.html" title="class in com.airtribe.meditrack.service">DoctorService</a>&nbsp;doctorService,
+ <a href="PatientService.html" title="class in com.airtribe.meditrack.service">PatientService</a>&nbsp;patientService)</span></div>
+</section>
+</li>
+</ul>
+</section>
+</li>
+
+<li>
+<section class="method-details" id="method-detail">
+<h2>Method Details</h2>
+<ul class="member-list">
+<li>
+<section class="detail" id="bookAppointment(java.lang.String,java.lang.String,java.time.LocalDateTime,java.lang.String)">
+<h3>bookAppointment</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a></span>&nbsp;<span class="element-name">bookAppointment</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;patientId,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;doctorId,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/LocalDateTime.html" title="class or interface in java.time" class="external-link">LocalDateTime</a>&nbsp;dateTime,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;reason)</span>
+                            throws <span class="exceptions"><a href="../exception/InvalidDataException.html" title="class in com.airtribe.meditrack.exception">InvalidDataException</a></span></div>
+<dl class="notes">
+<dt>Throws:</dt>
+<dd><code><a href="../exception/InvalidDataException.html" title="class in com.airtribe.meditrack.exception">InvalidDataException</a></code></dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="cancelAppointment(java.lang.String)">
+<h3>cancelAppointment</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">cancelAppointment</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;id)</span>
+                       throws <span class="exceptions"><a href="../exception/AppointmentNotFoundException.html" title="class in com.airtribe.meditrack.exception">AppointmentNotFoundException</a></span></div>
+<dl class="notes">
+<dt>Throws:</dt>
+<dd><code><a href="../exception/AppointmentNotFoundException.html" title="class in com.airtribe.meditrack.exception">AppointmentNotFoundException</a></code></dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="generateBill(java.lang.String,double)">
+<h3>generateBill</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="../entity/Bill.html" title="class in com.airtribe.meditrack.entity">Bill</a></span>&nbsp;<span class="element-name">generateBill</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;appointmentId,
+ double&nbsp;amount)</span>
+                  throws <span class="exceptions"><a href="../exception/AppointmentNotFoundException.html" title="class in com.airtribe.meditrack.exception">AppointmentNotFoundException</a></span></div>
+<dl class="notes">
+<dt>Throws:</dt>
+<dd><code><a href="../exception/AppointmentNotFoundException.html" title="class in com.airtribe.meditrack.exception">AppointmentNotFoundException</a></code></dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="generateBill(java.lang.String,double,com.airtribe.meditrack.patterns.billing.BillingStrategy)">
+<h3>generateBill</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="../entity/Bill.html" title="class in com.airtribe.meditrack.entity">Bill</a></span>&nbsp;<span class="element-name">generateBill</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;appointmentId,
+ double&nbsp;amount,
+ <a href="../patterns/billing/BillingStrategy.html" title="interface in com.airtribe.meditrack.patterns.billing">BillingStrategy</a>&nbsp;strategy)</span>
+                  throws <span class="exceptions"><a href="../exception/AppointmentNotFoundException.html" title="class in com.airtribe.meditrack.exception">AppointmentNotFoundException</a></span></div>
+<dl class="notes">
+<dt>Throws:</dt>
+<dd><code><a href="../exception/AppointmentNotFoundException.html" title="class in com.airtribe.meditrack.exception">AppointmentNotFoundException</a></code></dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="getAllAppointments()">
+<h3>getAllAppointments</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a>&gt;</span>&nbsp;<span class="element-name">getAllAppointments</span>()</div>
+</section>
+</li>
+<li>
+<section class="detail" id="getAllBills()">
+<h3>getAllBills</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../entity/Bill.html" title="class in com.airtribe.meditrack.entity">Bill</a>&gt;</span>&nbsp;<span class="element-name">getAllBills</span>()</div>
+</section>
+</li>
+<li>
+<section class="detail" id="getAppointmentsForDoctor(java.lang.String)">
+<h3>getAppointmentsForDoctor</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a>&gt;</span>&nbsp;<span class="element-name">getAppointmentsForDoctor</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;doctorId)</span></div>
+</section>
+</li>
+<li>
+<section class="detail" id="getAppointmentsForPatient(java.lang.String)">
+<h3>getAppointmentsForPatient</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a>&gt;</span>&nbsp;<span class="element-name">getAppointmentsForPatient</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;patientId)</span></div>
+</section>
+</li>
+<li>
+<section class="detail" id="addLoaded(com.airtribe.meditrack.entity.Appointment)">
+<h3>addLoaded</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">addLoaded</span><wbr><span class="parameters">(<a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a>&nbsp;appointment)</span></div>
+</section>
+</li>
+<li>
+<section class="detail" id="addObserver(com.airtribe.meditrack.patterns.observer.AppointmentObserver)">
+<h3>addObserver</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">addObserver</span><wbr><span class="parameters">(<a href="../patterns/observer/AppointmentObserver.html" title="interface in com.airtribe.meditrack.patterns.observer">AppointmentObserver</a>&nbsp;observer)</span></div>
+</section>
+</li>
+<li>
+<section class="detail" id="appointmentsPerDoctor()">
+<h3>appointmentsPerDoctor</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>,<wbr><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&gt;</span>&nbsp;<span class="element-name">appointmentsPerDoctor</span>()</div>
+</section>
+</li>
+<li>
+<section class="detail" id="search(java.lang.String)">
+<h3>search</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a>&gt;</span>&nbsp;<span class="element-name">search</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;keyword)</span></div>
+<dl class="notes">
+<dt>Specified by:</dt>
+<dd><code><a href="../interfaces/Searchable.html#search(java.lang.String)">search</a></code>&nbsp;in interface&nbsp;<code><a href="../interfaces/Searchable.html" title="interface in com.airtribe.meditrack.interfaces">Searchable</a>&lt;<a href="../entity/Appointment.html" title="class in com.airtribe.meditrack.entity">Appointment</a>&gt;</code></dd>
+</dl>
+</section>
+</li>
+</ul>
+</section>
+</li>
+</ul>
+</section>
+
+</main>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+com.airtribe.meditrack
+com.airtribe.meditrack.constants
+com.airtribe.meditrack.entity
+com.airtribe.meditrack.exception
+com.airtribe.meditrack.interfaces
+com.airtribe.meditrack.patterns.billing
+com.airtribe.meditrack.patterns.observer
+com.airtribe.meditrack.patterns.template
+com.airtribe.meditrack.service
+com.airtribe.meditrack.test
+com.airtribe.meditrack.util
